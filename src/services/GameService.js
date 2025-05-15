@@ -6,6 +6,12 @@ export const searchGames = (query) => {
   });
 };
 
+export const getGames = () => {
+  return fetch(`${API_URL}/games`, {
+    method: "GET",
+  });
+};
+
 export const getGame = (id) => {
   return fetch(`${API_URL}/games/${id}`, {
     method: "GET",
@@ -26,6 +32,15 @@ export const updateGame = (id, updatedStatus) => {
   return fetch(`${API_URL}/games/${id}`, {
     method: "PUT",
     body: JSON.stringify(updatedStatus),
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+};
+
+export const deleteGame = (id) => {
+  return fetch(`${API_URL}/games/${id}`, {
+    method: "DELETE",
     headers: {
       "Content-Type": "application/json",
     },
