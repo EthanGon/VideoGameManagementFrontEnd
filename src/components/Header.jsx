@@ -12,9 +12,6 @@ const Header = () => {
           Home
         </Link>
         <nav className="flex w-full flex-col items-start gap-4 text-lg font-medium md:w-auto md:flex-row md:items-center md:gap-0 md:space-x-6 md:text-2xl">
-          <Link to="/games" className="hover:opacity-90">
-            Games
-          </Link>
           <SearchBar />
         </nav>
       </div>
