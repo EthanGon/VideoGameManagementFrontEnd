@@ -3,7 +3,7 @@ import SearchBar from "./SearchBar";
 
 const Header = () => {
   return (
-    <header className="bg-neutral-900 text-slate-100">
+    <header className="bg-blue-900 text-slate-100">
       <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-4 p-4 md:flex-row md:items-center md:gap-0">
         <Link
           to="/"
