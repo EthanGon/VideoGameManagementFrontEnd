@@ -2,9 +2,8 @@ import "./App.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 // pages
-import Home from "./pages/Home";
 import Search from "./pages/Search";
-import GamesList from "./pages/GamesList";
+import Home from "./pages/Home";
 import GameDetails from "./pages/GameDetails";
 import NotFound from "./pages/NotFound";
 
@@ -17,7 +16,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="games" element={<GamesList />} />
           <Route path="games/:id" element={<GameDetails />} />
           <Route path="search" element={<Search />} />
           <Route path="/404" element={<NotFound />} />
