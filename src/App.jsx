@@ -17,9 +17,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="search" element={<Search />} />
           <Route path="games" element={<GamesList />} />
           <Route path="games/:id" element={<GameDetails />} />
+          <Route path="search" element={<Search />} />
           <Route path="/404" element={<NotFound />} />
           <Route path="*" element={<Navigate to="/404" replace />} />
         </Route>
