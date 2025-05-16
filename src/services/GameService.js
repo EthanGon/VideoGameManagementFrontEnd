@@ -1,5 +1,5 @@
 // const API_URL = "http://localhost:8080/api";
-const aPI_URL = "https://videogamemanagementbackend-api.onrender.com";
+const aPI_URL = "https://videogamemanagementbackend-api.onrender.com/api";
 
 export const searchGames = (query) => {
   return fetch(`${API_URL}/games/search/${query}`, {
