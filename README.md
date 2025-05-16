@@ -1,4 +1,4 @@
-# 🎮 Video Game Management – Front End
+# 🖥️ Video Game Management – Front End
 
 ## 🚀 Project Overview
 
@@ -38,7 +38,7 @@ The application is styled with **Tailwind CSS**, ensuring responsiveness across 
 
 ⚠️ Important: Ensure the back-end server is also running so that API requests work properly. The application fetches data from the database and the IGDB API through the back end.
 
-## 🧰 🌐 Live Demo
+## 🌐 Live Demo
 
 The front-end is deployed on Render.com:
 🔗 https://videogamemanagement.onrender.com
