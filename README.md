@@ -1,5 +1,7 @@
 # 🖥️ Video Game Management – Front End
 
+- **GitHub Back-End Repo:** [https://github.com/EthanGon/VideoGameManagementBackEnd](https://github.com/EthanGon/VideoGameManagementBackEnd)
+
 ## 🚀 Project Overview
 
 This is the front-end of my **Video Game Management Application**, a responsive web app built with React. It allows users to:
