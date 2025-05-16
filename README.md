@@ -31,14 +31,14 @@ The application is styled with **Tailwind CSS**, ensuring responsiveness across 
 
 ## 🧰 Installation & Setup
 
-- 1. Clone the repository:  
-     git clone
+1. Clone the repository:  
+    git clone
 
-- 2. Navigate to the project directory and install dependencies:  
-     npm install
+2. Navigate to the project directory and install dependencies:  
+    npm install
 
-- 3. Start the development server:  
-     npm run dev
+3. Start the development server:  
+    npm run dev
 
 ⚠️ Important: Ensure the back-end server is also running so that API requests work properly. The application fetches data from the database and the IGDB API through the back end.
 
