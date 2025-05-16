@@ -41,7 +41,7 @@ The application is styled with **Tailwind CSS**, ensuring responsiveness across 
 ## 🧰 🌐 Live Demo
 
 The front-end is deployed on Render.com:
-🔗 https://videogamemanagement.onrender.com/
+🔗 https://videogamemanagement.onrender.com
 
 ⏳ Note: Since the app is hosted on Render’s free plan, there may be a short delay when loading data due to the back-end "waking up" from sleep mode.
 
