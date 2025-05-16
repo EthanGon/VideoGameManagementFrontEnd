@@ -18,8 +18,6 @@ The app uses **React Router** for dynamic routing and includes the following pag
 
 The application is styled with **Tailwind CSS**, ensuring responsiveness across mobile and desktop devices.
 
----
-
 ## 🛠️ Technologies Used
 
 - **React**
@@ -27,22 +25,18 @@ The application is styled with **Tailwind CSS**, ensuring responsiveness across 
 - **Tailwind CSS**
 - **React Icons**
 
----
-
 ## 🧰 Installation & Setup
 
 1. Clone the repository:  
-    git clone
+   git clone
 
 2. Navigate to the project directory and install dependencies:  
-    npm install
+   npm install
 
 3. Start the development server:  
-    npm run dev
+   npm run dev
 
 ⚠️ Important: Ensure the back-end server is also running so that API requests work properly. The application fetches data from the database and the IGDB API through the back end.
-
----
 
 ## 🧰 🌐 Live Demo
 
@@ -50,8 +44,6 @@ The front-end is deployed on Render.com:
 🔗 https://videogamemanagement.onrender.com/
 
 ⏳ Note: Since the app is hosted on Render’s free plan, there may be a short delay when loading data due to the back-end "waking up" from sleep mode.
-
----
 
 ## 📝 Notes
 
