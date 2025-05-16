@@ -1,12 +1,65 @@
-# React + Vite
+# 🎮 Video Game Management – Front End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview
 
-Currently, two official plugins are available:
+This is the front-end of my **Video Game Management Application**, a responsive web app built with React. It allows users to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for video games
+- View detailed game information
+- Add games to their personal list
+- Navigate through a clean, multi-page interface
 
-## Expanding the ESLint configuration
+The app uses **React Router** for dynamic routing and includes the following pages:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Home Page** – Displays the list of added games
+- **Search Page** – Fetches and displays game results from the back end
+- **Details Page** – Shows detailed information about a selected game
+- **Not Found Page** – Handles routes that don't exist
+
+The application is styled with **Tailwind CSS**, ensuring responsiveness across mobile and desktop devices.
+
+---
+
+## 🛠️ Technologies Used
+
+- **React**
+- **React Router**
+- **Tailwind CSS**
+- **React Icons**
+
+---
+
+## 🧰 Installation & Setup
+
+- 1. Clone the repository:  
+     git clone
+
+- 2. Navigate to the project directory and install dependencies:  
+     npm install
+
+- 3. Start the development server:  
+     npm run dev
+
+⚠️ Important: Ensure the back-end server is also running so that API requests work properly. The application fetches data from the database and the IGDB API through the back end.
+
+---
+
+## 🧰 🌐 Live Demo
+
+The front-end is deployed on Render.com:
+🔗 https://videogamemanagement.onrender.com/
+
+⏳ Note: Since the app is hosted on Render’s free plan, there may be a short delay when loading data due to the back-end "waking up" from sleep mode.
+
+---
+
+## 📝 Notes
+
+This project helped me learn how to:
+
+- Build and deploy a front-end React application
+- Work with RESTful APIs and handle CORS issues
+- Style apps effectively using Tailwind CSS
+- Deploy full-stack applications with hosting platforms
+
+Big thanks to ChatGPT and various YouTube tutorials for helping me troubleshoot deployment and styling challenges. I found Tailwind CSS really helpful for speeding up UI development, and React Icons provided great-looking icons for elements like the search bar and delete button
