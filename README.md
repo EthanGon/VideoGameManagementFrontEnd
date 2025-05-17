@@ -56,4 +56,4 @@ This project helped me learn how to:
 - Style apps effectively using Tailwind CSS
 - Deploy full-stack applications with hosting platforms
 
-Big thanks to ChatGPT and various YouTube tutorials for helping me troubleshoot deployment and styling challenges. I found Tailwind CSS really helpful for speeding up UI development, and React Icons provided great-looking icons for elements like the search bar and delete button
+
